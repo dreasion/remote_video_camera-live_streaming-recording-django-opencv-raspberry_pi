@@ -86,7 +86,7 @@ Description of diffrent django apps:
                                On submitting the form it POST requst block is called and new user is created and at last it return the
                                the signup_confirmation.html file which shows that the user has successfully signed up. 
                                
-                               Django's inbuilt signup feature has been used for signning up
+         Django's inbuilt signup feature has been used for signning up
                                
                                
         The built in login and logout feature provided by Django has been used for logging in and logging out.
