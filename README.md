@@ -2,11 +2,13 @@
 
 Introduction:
 
-This software has been made mainly for running on raspberry pi. The objective is to stream live video (video can be recorded if necessary) from a webcam connected with a raspberry pi to any device (by entering the IP address of the raspberry pi in the web browser) over a same wifi network using a web browser. Records (each time an user uses the software to live stream) can also be maintained by recording the username and the time of login.
+This software has been made mainly for running on raspberry pi. The objective is to stream live video (video can be recorded if necessary) from a webcam (connected with a raspberry pi) attached to main door of a house to any device (by entering the IP address of the raspberry pi in the web browser) over a same wifi network using a web browser when someone knocks Records (each time an user uses the software to live stream) can also be maintained by recording the username and the time of login.
 
 Frameworks and Libraries used:
   1. Django
   2. OpenCV
+  3. OS 
+  4. sys
   
   Database used with django - MySqlite
   
@@ -90,7 +92,7 @@ Description of diffrent django apps:
         The built in login and logout feature provided by Django has been used for logging in and logging out.
         
         
-        Forms for signup (in signup.html) and login (in login) have been created in forms.py file
+        Forms for signup (in signup.html) and login (in login.html) have been created in forms.py file.
                     
                                              
                                               
