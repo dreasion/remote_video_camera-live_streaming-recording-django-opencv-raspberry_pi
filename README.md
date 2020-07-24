@@ -54,8 +54,8 @@ Description of diffrent django apps:
                                                
                                                Working:
                                                
-                                               When recording is switched off and user clicks on the recording button the this function
-                                               (video_record_current()) function is called and in turn it edits a file named                                                                                                     recording_switch.txt and changes the content to "True-Current" and
+                                               When recording is switched off and user clicks on the recording button then this function
+                                               (video_record_current()) function is called and in turn it edits a file named                                                                                                    recording_switch.txt and changes the content to "True-Current" and
                                                and then calls the index() function (redirecting to the index.html file).
                                                
                                                Now as mentioned above that a html image tag inside the index.html page calls 
